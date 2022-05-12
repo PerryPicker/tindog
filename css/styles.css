@@ -1,0 +1,215 @@
+/* Tags */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 5%;
+}
+
+/* Title section */
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15% 11%;
+}
+
+/* Navegation bar. */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+/* Brand */
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.3rem;
+    font-weight: bold;
+}
+
+/* Menu */
+.nav-item {
+    margin: 0 18px;
+    font-size: 1.4rem;
+}
+
+/* Claim */
+#div-meet {
+    margin-bottom: 8%;
+}
+
+/* Download buttons */
+.descargar {
+    margin-right: 3%;
+}
+
+/* iPhone image */
+.iphone {
+    width: 60%;
+    transform: rotate(20deg);
+    margin-left: 15%;
+    position: absolute;
+}
+
+/* Title Section Responsive desing settings*/
+@media (max-width: 1050px) {
+
+    .container-fluid {
+        text-align: center;
+    }
+
+    .iphone {
+        position: static;
+        transform: rotate(0);
+        margin-left: 0;
+    }
+
+    .nav-item {
+        text-align: right;
+    }
+
+    .descargar {
+        margin-bottom: 3%;
+    }
+}
+
+/* Features */
+#features {
+    padding: 9% 15%;
+    position: relative;
+    background-color: white;
+}
+
+.feature-icon {
+    margin: 5% auto;
+    position: relative;
+    font-size: 4.3rem;
+    color: #ef8172;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature {
+    font-weight: bold
+}
+
+.feature-description {
+    --value-margin: 8%;
+    margin-right: var(--value-margin);
+    margin-left: var(--value-margin);
+    color: #8f8f8f;
+}
+
+/* Testimonials */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonials-img {
+    border-radius: 50%;
+    margin: 5% 3%;
+    width: 10%;
+}
+
+.testimonial-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press */
+#press {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.press-logos {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+    padding: 8% 10%;
+}
+
+.card {
+    text-align: center;
+}
+
+.pricing-h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+
+.pricing-p {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 80px;
+}
+
+/* Pricing responsive desing  */
+@media (max-width: 1010px) {
+    .card-mastiff {
+        margin-top: 3%;
+    }
+}
+
+/* Call To Action section */
+#cta {
+    background-color: #ff4c68;
+    padding: 80px 120px 100px;
+    text-align: center;
+}
+
+.cta-h3 {
+    font-weight: bold;
+    font-size: 2.7rem;
+    color: white;
+    margin-bottom: 3%;
+}
+
+
+/* Footer */
+#footer {
+    text-align: center;
+    padding: 100px;
+}
+
+.footer-social {
+    color: black;
+    margin: 30px 12px;
+}
+
+.footer-social:hover {
+    color: gray;
+    margin: 12px ;
+}
+
+.hugo-github-link {
+    color: #ff4c68;
+}
+
+.hugo-github-link:hover {
+    text-decoration: none;
+    color: #ef8172;
+}
